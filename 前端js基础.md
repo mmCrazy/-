@@ -4,7 +4,7 @@ typora-copy-images-to: image
 
 ---
 
-# 前端基础
+# 前端js基础
 
 ### 基本类型
 
