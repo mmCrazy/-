@@ -1090,7 +1090,7 @@ define(function(require,exports,module){
 })
 ```
 
-##### CommonJS（动态导入）
+#### CommonJS（动态导入）
 
 （加载模块是同步的，即只有加载完成，才能执行后面的操作）
 
@@ -1162,7 +1162,7 @@ a.add()
 console.log(a.num) //1
 ```
 
-###### exports:
+##### exports:
 
 //dome.js
 
@@ -1206,7 +1206,7 @@ additional: 'test'
 }
 ```
 
-###### module.exports:
+##### module.exports:
 
 //index.js
 
@@ -1260,7 +1260,7 @@ return a - b;
 
 
 
-##### ES Module(静态导入)
+#### ES Module(静态导入)
 
 使用ES Module实现模块化（原生方法）
 
