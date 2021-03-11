@@ -550,7 +550,7 @@ foo.bind(a)()   // 小明
 用法： 对象.call(对象, ...)
 
 ```javascript
-Function.prototype.myCall(context){
+Function.prototype.myCall = function(context){
     if(typeof this !== 'function'){
         throw new TypeError('Error')
     }
@@ -596,7 +596,7 @@ Function.prototype.myApply = function(context){
 (bind和call、apply不同的是bind是需要返回一个函数)
 
 ```javascript
-Function.prototype.myBind(context){
+Function.prototype.myBind = function(context){
     if(typeof this !== 'function'){
         throw new TypeError('Error')
     }
